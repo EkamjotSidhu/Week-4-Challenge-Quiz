@@ -1,0 +1,95 @@
+html {
+
+    border: rgb(105, 102, 102) solid 3px;
+    border-radius: 5px;
+}
+
+body {
+    height: vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.high-score {
+    color: magenta;
+}
+
+.main-page {
+
+    margin: 200px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: justify;
+
+}
+
+hr {
+    color: grey;
+}
+
+#answer {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 30px;
+    border-top: gray solid 2px;
+    font-style: italic;
+    display: none;
+
+}
+
+.button {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.start-button {
+    border-bottom: grey solid 5px;
+    border-right: grey solid 5px;
+    background-color: rgb(82, 3, 82);
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+
+button {
+    margin: 10px;
+    width: 250px;
+    border-bottom: grey solid 5px;
+    border-right: grey solid 5px;
+    background-color: rgb(37, 37, 119);
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+#button {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: block
+}
+
+button:hover {
+
+    background-color: magenta;
+    border: magenta solid 5px;
+    color: black;
+}
+
+button:active {
+    border: magenta solid 5px;
+}
+
+.choice {
+    display: none;
+    text-align: left;
+}
+
+input {
+    height: 20px
+}
